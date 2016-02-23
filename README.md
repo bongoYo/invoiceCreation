@@ -2,7 +2,7 @@
 Simple node script that takes json input and creates an invoice pdf output using the passed json and an html/angular template
 
 ## Instructions
-Clone the repo to where ever you like, cd into the 'invoiceCreation' directory then run npm install to install the node dependancies.
+Clone the repo to where ever you like, cd into the 'invoiceCreation' directory then run `npm install` to install the node dependancies.
 
 After that you'll probably want to change some of the defaults like the company address, logo and bank details. You can find most of these in the 'globalModel' object in the following file: invoiceCreation/ngApp/scripts/invoiceApp.js. You don't need to edit the 'model' object as that data is passed through as a parameter when calling the script. To change the logo you'll want to edit invoiceCreation/invoiceAngular.html, search for 'invoiceLogo.png' and replace it with anything you like.
 
