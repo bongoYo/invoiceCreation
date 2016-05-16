@@ -20,7 +20,7 @@
             <p>Sort Code: {{ globalModel.accountsortCode }}</p>
 
         </div><div class="logoAndPurchaseOrderHolder">
-            <h2>Purchase order: {{ model.purchaseOrderId }}</h2>
+            <h2 ng-show="model.purchaseOrderId">Purchase order: {{ model.purchaseOrderId }}</h2>
         </div>
         <div class="invoicDescriptionTable">
             <div class="tableRow">
